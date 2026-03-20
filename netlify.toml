@@ -1,0 +1,18 @@
+# 메인 청첩장(/) + 상견례 프레젠테이션(/sanggyeon/)
+[build]
+  command = "node scripts/build-site.mjs"
+  publish = "dist-site"
+
+[build.environment]
+  NODE_VERSION = "20"
+
+[[redirects]]
+  from = "/sanggyeon"
+  to = "/sanggyeon/"
+  status = 301
+
+# Vite SPA — 실제 파일(assets 등)이 있으면 그대로 제공, 없으면 index.html
+[[redirects]]
+  from = "/sanggyeon/*"
+  to = "/sanggyeon/index.html"
+  status = 200
