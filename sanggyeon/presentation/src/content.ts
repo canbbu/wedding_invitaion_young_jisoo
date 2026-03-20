@@ -15,10 +15,15 @@ export const bride = {
   parentsLabel: '김재동아버님의 딸',
   extra: '김지웅의 누나',
   birth: '1994년 2월 17일',
-  mbti: '—',
-  mbtiNote: '곧 채워 넣을 예정이에요. (추후 수정)',
+  mbti: 'ESFP',
+  mbtiNote: '연애에서 열정적이고 즉흥적인 즐거움 추구형으로, 상대와 함께 현재 순간을 활기차게 즐기며 솔직한 감정 표현을 즐깁니다.',
   blood: 'B형',
 }
+
+export const mbtiChemistry = [
+  "전반적 궁합은 '찰떡 케미' 또는 '운명적 만남'으로 평가됩니다.",
+  'ENFJ의 리더십이 ESFP를 지지하고, ESFP의 재미가 ENFJ를 밝혀 균형 잡습니다.',
+]
 
 export const nagoyaSteps = [
   '친구 부부의 친한 동생으로 나고야 여행',

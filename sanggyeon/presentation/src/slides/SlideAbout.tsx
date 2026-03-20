@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import { groom, bride } from '../content'
+import { groom, bride, mbtiChemistry } from '../content'
 import { getHeroSource, getYouthProfileImages } from '../media'
 import { SlideChrome } from '../components/SlideChrome'
 
@@ -87,6 +87,19 @@ export function SlideAbout() {
           <p className="profile-card__blood">{bride.blood}</p>
         </motion.article>
       </div>
+      <motion.section
+        className="about-chemistry"
+        initial={{ opacity: 0, y: 18 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ delay: 0.55, duration: 0.6 }}
+      >
+        <h4 className="about-chemistry__title">MBTI 궁합 결과</h4>
+        {mbtiChemistry.map((line) => (
+          <p key={line} className="about-chemistry__line">
+            {line}
+          </p>
+        ))}
+      </motion.section>
     </SlideChrome>
   )
 }

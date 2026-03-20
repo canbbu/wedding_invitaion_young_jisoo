@@ -392,6 +392,35 @@ body {
   z-index: 3;
 }
 
+.about-chemistry {
+  max-width: 920px;
+  margin: 16px auto 0;
+  padding: 14px 18px;
+  border-radius: 14px;
+  background: rgba(255, 252, 248, 0.9);
+  border: 1px solid rgba(255, 255, 255, 0.92);
+  box-shadow: 0 10px 24px rgba(76, 42, 55, 0.08);
+}
+
+.about-chemistry__title {
+  margin: 0 0 8px;
+  font-family: var(--font-display);
+  font-size: clamp(1.15rem, 2.8vw, 1.4rem);
+  color: var(--rose-deep);
+}
+
+.about-chemistry__line {
+  margin: 0 0 6px;
+  color: var(--text);
+  font-size: 0.95rem;
+  line-height: 1.62;
+  font-weight: 500;
+}
+
+.about-chemistry__line:last-child {
+  margin-bottom: 0;
+}
+
 /* Future */
 .future-lead {
   text-align: center;
