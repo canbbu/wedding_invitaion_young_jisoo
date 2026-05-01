@@ -54,7 +54,7 @@ export function SlideClosing() {
         transition={{ duration: 0.85, ease: [0.22, 1, 0.36, 1] }}
       >
         <p className="closing-message">{closingMessage}</p>
-        <p className="closing-sign">영직 · 지수</p>
+        <p className="closing-sign">영직 · 지수 올림</p>
       </motion.div>
     </SlideChrome>
   )
